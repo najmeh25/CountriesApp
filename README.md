@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌍 REST Countries App with Filters and Theme Toggle
 
-## Getting Started
+This is my solution to the [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-REST-Countries-API) challenge. I built it using **Next.js**, **Tailwind CSS**, and the **REST Countries API**.
 
-First, run the development server:
+## 🔧 Features
+
+- ✅ Display all countries with flags, names, population, and region
+- 🔍 Search countries by name
+- 🌍 Filter countries by region
+- 🔠 Sort countries alphabetically (A–Z and Z–A)
+- 👥 Filter countries with population over 50 million
+- 🌗 Toggle between light and dark mode
+- 🗺️ View detailed country information on a separate page
+  - Including native name, subregion, capital, currencies, languages, and more
+  - Clickable links to border countries
+
+## 🚀 Technologies Used
+
+- [Next.js 14](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [REST Countries API](https://restcountries.com/)
+- React Hooks (`useState`, `useEffect`)
+
+## 📸 Screenshots
+
+![Homepage](./public/screenshot-home.jpg)
+![Details Page](./public/screenshot-detail.jpg)
+
+## 🛠️ Getting Started
+Then open http://localhost:3000 in your browser
+
+📁 Folder Structure
+/app
+  /[country]       # Dynamic route for country detail pages
+  /components      # Reusable UI components
+  layout.js        # Global layout with theme toggle
+  page.js          # Homepage with filters and list
+
+To run this project locally:
 
 ```bash
+git clone https://github.com/your-username/countries-app.git
+cd countries-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📚 What I Learned
+How to work with dynamic routes using the new App Router in Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Implementing light/dark themes with Tailwind and useState
 
-## Learn More
+Managing filtered and sorted data using React state
 
-To learn more about Next.js, take a look at the following resources:
+Using external APIs and handling async data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🙌 Acknowledgments
+Challenge by Frontend Mentor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Thanks to the awesome community for code reviews and support!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# CountriesApp
-REST Countries API with color theme switcher
