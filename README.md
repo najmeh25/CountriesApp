@@ -45,6 +45,7 @@ npm install
 npm run dev
 
 🌐 Live Demo
+🔗 [Live Demo](https://countries-app-mocha.vercel.app/)
 
 📚 What I Learned
 How to work with dynamic routes using the new App Router in Next.js
