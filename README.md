@@ -21,13 +21,16 @@ This is my solution to the [Frontend Mentor](https://www.frontendmentor.io/chall
 - [REST Countries API](https://restcountries.com/)
 - React Hooks (`useState`, `useEffect`)
 
-## 📸 Screenshots
-
-![Homepage](./public/screenshot-home.jpg)
-![Details Page](./public/screenshot-detail.jpg)
 
 ## 🛠️ Getting Started
-Then open http://localhost:3000 in your browser
+
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/najmeh25/CountriesApp.git
+cd CountriesApp
+npm install
+npm run dev
 
 📁 Folder Structure
 /app
@@ -38,14 +41,9 @@ Then open http://localhost:3000 in your browser
 
 To run this project locally:
 
-```bash
-git clone https://github.com/your-username/countries-app.git
-cd countries-app
-npm install
-npm run dev
 
-🌐 Live Demo
 🔗 [Live Demo](https://countries-app-mocha.vercel.app/)
+
 
 📚 What I Learned
 How to work with dynamic routes using the new App Router in Next.js
