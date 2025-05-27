@@ -1,5 +1,7 @@
 # 🌍 REST Countries App with Filters and Theme Toggle
 
+🔗 [Live Demo](https://countries-app-mocha.vercel.app/)
+
 This is my solution to the [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-REST-Countries-API) challenge. I built it using **Next.js**, **Tailwind CSS**, and the **REST Countries API**.
 
 ## 🔧 Features
@@ -39,10 +41,6 @@ npm run dev
   layout.js        # Global layout with theme toggle
   page.js          # Homepage with filters and list
 
-To run this project locally:
-
-
-🔗 [Live Demo](https://countries-app-mocha.vercel.app/)
 
 
 📚 What I Learned
